@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h1 {
+            font-family: "Arial Black";
+            text-align: center;
+            margin-top: 0;
+        }
+        .container {
+            background-color: #031f68;
+            width: 1000px;
+            padding: 80px;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="font-size:48px"><u>HTML Syntax Validator<u></h1>
+<div class="buttons">
+    <div class="container">
+        <textarea id="htmlInput" placeholder="Paste your HTMl code here..."></textarea>
+        <button style="border-radius: 5px;" onclick="clearText()" style=height:50px id="clearBtn">Clear</button>
+        <button style="border-radius: 5px;" style=height:50px id="validateBtn">Validate</button>
+        <input style="border-radius: 5px;" style=height:50px type="file" id="fileInput">
+        <button style="border-radius: 5px;" style=height:50px id="saveBtn">Save Work</button>
+    </div>
+</div>
+<script>
+    function clearText(){
+        document.getElementById("htmlInput").value = ""
+    }
+
+</script>
+<script>
+    function file(){
+        fileInput=document.getElementById("htmlInput").localStorage = "htmlInput"
+    }
+
+</script>
+</body>
+</html>
+
+

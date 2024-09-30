@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>reedw.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+.s5 { color: #56a8f5;}
+.s6 { color: #7a7e85;}
+.s7 { color: #cf8e6d;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+reedw.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;style&gt;</span>
+        <span class="s0">h1 </span><span class="s1">{</span>
+            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">&quot;Arial Black&quot;</span><span class="s1">;</span>
+            <span class="s2">text-align</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">margin-top</span><span class="s1">: </span><span class="s4">0</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">container </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#031f68</span><span class="s1">;</span>
+            <span class="s2">width</span><span class="s1">: </span><span class="s4">1000</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s4">80</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">margin</span><span class="s1">: </span><span class="s4">0 </span><span class="s3">auto</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s0">textarea </span><span class="s1">{</span>
+            <span class="s2">width</span><span class="s1">: </span><span class="s4">100</span><span class="s1">%;</span>
+            <span class="s2">height</span><span class="s1">: </span><span class="s4">200</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+    <span class="s0">&lt;/style&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+<span class="s0">&lt;body&gt;</span>
+<span class="s0">&lt;h1 </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">font-size</span><span class="s1">:</span><span class="s4">48</span><span class="s3">px&quot;</span><span class="s0">&gt;&lt;u&gt;</span><span class="s1">HTML Syntax Validator</span><span class="s0">&lt;u&gt;&lt;/h1&gt;</span>
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;buttons&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;textarea </span><span class="s2">id</span><span class="s3">=&quot;htmlInput&quot; </span><span class="s2">placeholder</span><span class="s3">=&quot;Paste your HTML code here...&quot;</span><span class="s0">&gt;&lt;/textarea&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;button </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">height</span><span class="s1">:</span><span class="s4">50</span><span class="s3">px&quot; </span><span class="s2">id</span><span class="s3">=&quot;clearBtn&quot;</span><span class="s0">&gt;</span><span class="s1">Clear</span><span class="s0">&lt;/button&gt;</span>
+        <span class="s0">&lt;button </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">height</span><span class="s1">:</span><span class="s4">50</span><span class="s3">px&quot; </span><span class="s2">id</span><span class="s3">=&quot;validateBtn&quot;</span><span class="s0">&gt;</span><span class="s1">Validate</span><span class="s0">&lt;/button&gt;</span>
+        <span class="s6">&lt;!-- Restrict file input to .html files only --&gt;</span>
+        <span class="s0">&lt;input </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">height</span><span class="s1">:</span><span class="s4">50</span><span class="s3">px&quot; </span><span class="s2">type</span><span class="s3">=&quot;file&quot; </span><span class="s2">id</span><span class="s3">=&quot;fileInput&quot; </span><span class="s2">accept</span><span class="s3">=&quot;.html&quot;</span><span class="s0">&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;button </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">height</span><span class="s1">:</span><span class="s4">50</span><span class="s3">px&quot; </span><span class="s2">id</span><span class="s3">=&quot;saveBtn&quot;</span><span class="s0">&gt;</span><span class="s1">Save Work</span><span class="s0">&lt;/button&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+<span class="s0">&lt;/div&gt;</span>
+
+<span class="s0">&lt;script&gt;</span>
+    <span class="s6">// Function to clear the textarea</span>
+    <span class="s1">document.getElementById(</span><span class="s3">'clearBtn'</span><span class="s1">).addEventListener(</span><span class="s3">'click'</span><span class="s1">, </span><span class="s7">function</span><span class="s1">() {</span>
+        <span class="s1">document.getElementById(</span><span class="s3">'htmlInput'</span><span class="s1">).value = </span><span class="s3">''</span><span class="s1">;</span>
+    <span class="s1">});</span>
+
+    <span class="s6">// Function to validate HTML syntax</span>
+    <span class="s1">document.getElementById(</span><span class="s3">'validateBtn'</span><span class="s1">).addEventListener(</span><span class="s3">'click'</span><span class="s1">, </span><span class="s7">function</span><span class="s1">() {</span>
+        <span class="s7">const </span><span class="s1">htmlInput = document.getElementById(</span><span class="s3">'htmlInput'</span><span class="s1">).value;</span>
+        <span class="s7">try </span><span class="s1">{</span>
+            <span class="s6">// Create a temporary document to validate HTML syntax</span>
+            <span class="s7">const </span><span class="s1">parser = </span><span class="s7">new </span><span class="s1">DOMParser();</span>
+            <span class="s7">const </span><span class="s1">doc = parser.parseFromString(htmlInput, </span><span class="s3">'text/html'</span><span class="s1">);</span>
+            <span class="s7">const </span><span class="s1">parseErrors = doc.querySelectorAll(</span><span class="s3">'parsererror'</span><span class="s1">);</span>
+
+            <span class="s7">if </span><span class="s1">(parseErrors.length &gt; </span><span class="s4">0</span><span class="s1">) {</span>
+                <span class="s1">alert(</span><span class="s3">&quot;HTML Syntax Error detected!&quot;</span><span class="s1">);</span>
+            <span class="s1">} </span><span class="s7">else </span><span class="s1">{</span>
+                <span class="s1">alert(</span><span class="s3">&quot;HTML is valid!&quot;</span><span class="s1">);</span>
+            <span class="s1">}</span>
+        <span class="s1">} </span><span class="s7">catch </span><span class="s1">(e) {</span>
+            <span class="s1">alert(</span><span class="s3">&quot;An error occurred while validating.&quot;</span><span class="s1">);</span>
+        <span class="s1">}</span>
+    <span class="s1">});</span>
+
+    <span class="s6">// Function to upload and read a file (HTML only)</span>
+    <span class="s1">document.getElementById(</span><span class="s3">'fileInput'</span><span class="s1">).addEventListener(</span><span class="s3">'change'</span><span class="s1">, </span><span class="s7">function</span><span class="s1">() {</span>
+        <span class="s7">const </span><span class="s1">file = </span><span class="s7">this</span><span class="s1">.files[</span><span class="s4">0</span><span class="s1">];</span>
+        <span class="s7">if </span><span class="s1">(file) {</span>
+            <span class="s7">const </span><span class="s1">fileName = file.name.toLowerCase();</span>
+            <span class="s6">// Check if the file is an HTML file</span>
+            <span class="s7">if </span><span class="s1">(fileName.endsWith(</span><span class="s3">'.html'</span><span class="s1">)) {</span>
+                <span class="s7">const </span><span class="s1">reader = </span><span class="s7">new </span><span class="s1">FileReader();</span>
+                <span class="s1">reader.onload = </span><span class="s7">function</span><span class="s1">(e) {</span>
+                    <span class="s1">document.getElementById(</span><span class="s3">'htmlInput'</span><span class="s1">).value = e.target.result;</span>
+                <span class="s1">};</span>
+                <span class="s1">reader.readAsText(file);</span>
+            <span class="s1">} </span><span class="s7">else </span><span class="s1">{</span>
+                <span class="s1">alert(</span><span class="s3">&quot;Please upload an HTML file.&quot;</span><span class="s1">);</span>
+                <span class="s7">this</span><span class="s1">.value = </span><span class="s3">''</span><span class="s1">;  </span><span class="s6">// Clear the input if it's not an HTML file</span>
+            <span class="s1">}</span>
+        <span class="s1">}</span>
+    <span class="s1">});</span>
+
+    <span class="s6">// Function to save textarea content as a file</span>
+    <span class="s1">document.getElementById(</span><span class="s3">'saveBtn'</span><span class="s1">).addEventListener(</span><span class="s3">'click'</span><span class="s1">, </span><span class="s7">function</span><span class="s1">() {</span>
+        <span class="s7">const </span><span class="s1">text = document.getElementById(</span><span class="s3">'htmlInput'</span><span class="s1">).value;</span>
+        <span class="s7">const </span><span class="s1">blob = </span><span class="s7">new </span><span class="s1">Blob([text], { type: </span><span class="s3">'text/html' </span><span class="s1">});</span>
+        <span class="s7">const </span><span class="s1">link = document.createElement(</span><span class="s3">'a'</span><span class="s1">);</span>
+        <span class="s1">link.href = URL.createObjectURL(blob);</span>
+        <span class="s1">link.download = </span><span class="s3">'your_code.html'</span><span class="s1">;</span>
+        <span class="s1">link.click();</span>
+    <span class="s1">});</span>
+<span class="s0">&lt;/script&gt;</span>
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
